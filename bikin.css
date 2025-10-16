@@ -1,1 +1,108 @@
- 
+ * {
+    margin: 0;
+    padding: 0;
+     font-family: "poppins", sans-serif;
+     box-sizing: border-box;
+ }
+body {
+    background-color: #ffff;
+    padding: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 11000px;
+    background-color: aqua;
+    padding: 20px;
+    
+}
+
+.foto {
+    border-radius: 100px;
+    color: white;
+    font-weight: 700;
+}
+.my {
+    color: #0c084c;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tombol ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+.tombol ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #F1A204;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.tombol ul li a:hover {
+    color: white;
+    transform: translateZ(5px);
+    background-color: #1100ff;
+}
+.cointaner1 {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #1100ff;
+    margin-top: 100px;
+}
+.cointaner1 h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.cointaner1 .nama {
+    color: #F1A204;
+}
+.cointaner1 h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.cointaner1 p {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.hubungi a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hubungi {
+    background-color: #F1A204;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.hubungi:hover {
+    color: aliceblue;
+    transform: translateZ(5px);
+    background-color: #1100ff;
+}
+.cointaner1 h2 {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
